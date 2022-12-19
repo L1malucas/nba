@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nbainfo/home.dart';
+import 'package:nbainfo/pages/telaInicial.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       color: Colors.blueGrey,
       theme:
           ThemeData(primarySwatch: Colors.indigo, primaryColor: Colors.indigo),
-      home: const Home(),
+      home:  Home(),
     );
   }
 }
