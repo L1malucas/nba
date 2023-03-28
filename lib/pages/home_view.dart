@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
-import 'package:nbainfo/pages/telaJogadores.dart';
-import 'package:nbainfo/pages/telaResultados.dart';
-import 'package:nbainfo/pages/telaTimes.dart';
+import 'package:nbainfo/pages/players_view.dart';
+import 'package:nbainfo/pages/results_view.dart';
+import 'package:nbainfo/pages/teams_view.dart';
 
 class Home extends StatelessWidget {
   Home({super.key});

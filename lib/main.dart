@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nbainfo/pages/telaInicial.dart';
+import 'package:nbainfo/pages/home_view.dart';
 
 void main() {
   runApp(const MyApp());
