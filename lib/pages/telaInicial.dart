@@ -50,8 +50,8 @@ class Home extends StatelessWidget {
               child: Card(
                 child: InkWell(
                   onTap: () {
-                    Navigator.of(context)
-                        .push(MaterialPageRoute(builder: ((context) {telas[index];})));
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: ((context) => telas[index])));
                   },
                   child: SizedBox(
                     height: 400,
